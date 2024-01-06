@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="slides">
+      <div class="myslid fade">
+        <img src="./img_lights_wide.jpg" alt="" />
+      </div>
+      <div class="myslid fade">
+        <img src="./img_nature_wide.jpg" alt="" />
+      </div>
+      <div class="myslid fade">
+        <img src="./img_snow_wide.jpg" alt="" />
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+
+    <div style="margin-left: 32%; margin-top: 20px;">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
